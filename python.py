@@ -1,0 +1,1 @@
+print("my fav food is gol gapa")
