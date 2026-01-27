@@ -23,8 +23,14 @@
 # print(f"your number is : {num1}")
 
 # calculate the area of reactangle
-print("calculate the area of a rectangle")
-length = float(input("Enter the length "))
-breadth = float(input("Enter the width "))
-area = length * breadth
-print(f"the area is : {area} cm")
+# print("calculate the area of a rectangle")
+# length = float(input("Enter the length "))
+# breadth = float(input("Enter the width "))
+# area = length * breadth
+# print(f"the area is : {area} cm")
+
+item = input("what item you want to buy? : ")
+price = float(input("what is the price ? : "))
+quantity = float(input("what quantity? : "))
+total = price * quantity
+print(f"you have bought {quantity} x {item}")
