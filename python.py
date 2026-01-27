@@ -12,12 +12,19 @@
 # input() = a function that prompts the user to enter data returns the entered data as a string
 
 # input("what is your name ?")
-print("Give your details")
-name = input("what is your name?")
-age = int(input("what is your age ?"))
-num1 = int(input("tell your number "))
+# print("Give your details")
+# name = input("what is your name?")
+# age = int(input("what is your age ?"))
+# num1 = int(input("tell your number "))
 
-print(f"your details are here")
-print(f"your name is : {name}")
-print(f"your age is : {age}")
-print(f"your number is : {num1}")
+# print(f"your details are here")
+# print(f"your name is : {name}")
+# print(f"your age is : {age}")
+# print(f"your number is : {num1}")
+
+# calculate the area of reactangle
+print("calculate the area of a rectangle")
+length = float(input("Enter the length "))
+breadth = float(input("Enter the width "))
+area = length * breadth
+print(f"the area is : {area} cm")
