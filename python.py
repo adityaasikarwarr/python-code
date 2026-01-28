@@ -29,9 +29,9 @@
 # area = length * breadth
 # print(f"the area is : {area} cm")
 
-item = input("what item you want to buy? : ")
-price = float(input("what is the price ? : "))
-quantity = float(input("what quantity? : "))
-total = price * quantity
-print(f"you have bought {quantity} x {item}")
-print(f"your total is : ${total}")
+# item = input("what item you want to buy? : ")
+# price = float(input("what is the price ? : "))
+# quantity = float(input("what quantity? : "))
+# total = price * quantity
+# print(f"you have bought {quantity} x {item}")
+# print(f"your total is : ${total}")
