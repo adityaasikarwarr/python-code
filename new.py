@@ -2,8 +2,7 @@
 # for i in range(num):
 #     print(i * i)
     
-n = int(input())
-for i in range(1, n+1):
+for i in range(1, int(input())+1):
     print((10**i - 1)//9 * i)
 
         
