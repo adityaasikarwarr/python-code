@@ -11,3 +11,8 @@ print(11 in t)
 a = [(1,"a"), (3,"b"), (5,"c")]
 val = zip(*a)
 print(list(val))
+
+newA = []
+for  x , y in a:
+    newA.append((x, 0))
+print(newA)
