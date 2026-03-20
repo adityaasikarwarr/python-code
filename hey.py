@@ -49,7 +49,12 @@ student["marks"] = 85
 student["grade"] = "A"
 print(student)
 print(student["name"])
-    
+print(student.get("age"))
+print(student.keys())
+print(student.values())
+print(student.items())
+print(student.pop("name"))
+
 set = set()
 s = {1,2,3,4,5}
 print(type(s))
