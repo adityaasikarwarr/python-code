@@ -5,7 +5,6 @@ print(t[-4])
 for i in t:
     if i == 4:
         print("yes exists")
-    
 print(11 in t)
 
 
@@ -47,5 +46,11 @@ print(text[1:9:2])
 
 student = {"name":"Rahul","age":20,"marks":75}
 student["marks"] = 85
+student["grade"] = "A"
 print(student)
+print(student["name"])
     
+set = set()
+s = {1,2,3,4,5}
+print(type(s))
+s.add(10)
