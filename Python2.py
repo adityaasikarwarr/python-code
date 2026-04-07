@@ -39,11 +39,11 @@
 #         print(i , j)
 # academic(name = "Aditya" , section = "A" , course = "B.tech" , building = "A")
 
-def mul(*args):
-    a = int(input())
-    b = int(input())
-    c = int(input())
-    d = int(input())
-    e = int(input())
-    print(a * b * c * d* e)
-mul()
+# def mul(*args):
+#     a = int(input())
+#     b = int(input())
+#     c = int(input())
+#     d = int(input())
+#     e = int(input())
+#     print(a * b * c * d* e)
+# mul()
