@@ -16,5 +16,6 @@ while time <= 0:
     time = float(input("enter the time in years :"))
     if time <= 0:
         print("time must be greater than 0")
+        
 total= principle* pow((1+rate/100), time)
 print(f"your total amount is :\t{total}")
