@@ -8,5 +8,5 @@ for x in (range(my_time , 0 , -1)):
     hours = int(x / 3600)
     print(f"{hours:2d} : {minutes:2d} : {seconds:02d}")
     time.sleep(1)
-    
+  
 print("time is up")
