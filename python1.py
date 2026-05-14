@@ -15,7 +15,6 @@
 # print(f"the price 3 is {price3 : .2f} dollars")
 
 
-
 # name = input("enter your namme")
 # while name == "":
 #     print("you did not enter your name")
@@ -28,9 +27,8 @@
 #     food = input("Enter a food you like and  press q to exit")
 # print("bye")
 
-
-num = int(input("enter a number 1 and 10 "))
-while num < 1 or num > 10:
-    print(f"your {num} is not valif")
-    num = int(input("enter a number 1 and 10 "))
-print("thank you")
+# num = int(input("enter a number 1 and 10 "))
+# while num < 1 or num > 10:
+#     print(f"your {num} is not valif")
+#     num = int(input("enter a number 1 and 10 "))
+# print("thank you")
