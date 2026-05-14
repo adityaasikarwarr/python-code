@@ -32,3 +32,16 @@
 #     print(f"your {num} is not valif")
 #     num = int(input("enter a number 1 and 10 "))
 # print("thank you")
+
+# 2d lists are lists of lists
+# to access an element in a 2d list use [row][column]
+
+# num_pad = (( 1 , 2 , 3),
+#            ( 4 , 5 , 6 ),
+#            ( 7 , 8 , 9 ),
+#            ( "*" , 0 , "#" ))
+
+# for row in num_pad:
+#     for num in row :
+#         print(num , end = " ")
+#     print()
