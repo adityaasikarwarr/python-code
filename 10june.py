@@ -1,3 +1,41 @@
+class Bank:
+    bank_name = "HDFC"
+    bank_address = "Mohali"
+    
+    def info(self,name, age , account_number,acc_balance):
+        self.name = name
+        self.age = age
+        self.account_number = account_number
+        self.acc_balance = acc_balance
+        
+    def display(self):
+        print("Name = ", self.name)
+        print("Age = ", self.age)
+        print("Account number = ", self.account_number)
+        print("Account balance = ", self.acc_balance)
+        
+    def deposit(self, value):
+        self.acc_balance = self.add(self.acc_balance , value)
+        print("value added = ", value)
+        
+    def withdraw(self, w_bal):
+        self.acc_balance = self.sub(self.acc_balance , w_bal)
+        print("value Withdraw", w_bal)
+        
+    @staticmethod
+    def add(a , b):
+        return a + b
+    
+    @staticmethod
+    def sub(a , b):
+        return a - b
+        
+ob = Bank()
+ob.info("Ajit", 20, 126262662,2000)
+ob.display()
+ob.deposit(2000)
+
+
 class Animal :
     def eat(self):
         print("eat")
@@ -13,8 +51,7 @@ Dogobj.bark()
 
 class Employee :
     employee_name = "harsh raj"
-    employee_salary = 100000
-     
+    employee_salary = 100000     
 class Developer(Employee):
     programming_language = "Java , Python "
     
@@ -68,30 +105,3 @@ class ResumeDegree(Resume12th):
 student1 = ResumeDegree()
 student1.display_resume()
 
-class Bank:
-    bank_name = "HDFC"
-    bank_address = "Mohali"
-    
-    def info(self,name, age , account_number,acc_balance):
-        self.name = name
-        self.age = age
-        self.account_number = account_number
-        self.acc_balance = acc_balance
-        
-    def display(self):
-        print("Name = ", self.name)
-        print("Age = ", self.age)
-        print("Account number = ", self.account_number)
-        print("Account balance = ", self.acc_balance)
-        
-    def deposit(self, value):
-        self.acc_balance = self.acc_balance + value
-        print("value added ", value)
-        
-    def withdraw(self, w_bal):
-        self.acc_balance = self.acc_balance - w_bal
-        print("Withdraw", w_bal)
-        
-ob = Bank()
-ob.info("Ajit", 20, 126262662,2000)
-ob.display()
