@@ -1,3 +1,4 @@
+# lambda
 hello = lambda x : print("Hello, " + x + "!")
 hello("Alice")
 
@@ -35,3 +36,9 @@ palindrome = lambda string : print(string[::-1])
 palindrome2 = lambda string : print("palindrome") if str(string) == str(string[::-1]) else print("not a palindrome")
 palindrome(string)
 palindrome2(string)
+
+
+# map()
+strings = ["apple", "banana", "cherry", "date"]
+letter = list(map(lambda x : x[0], strings))
+print(letter)
