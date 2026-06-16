@@ -1,32 +1,32 @@
-# class A :
-#     __A = 10
-#     _B = 20
+class A :
+    __A = 10
+    _B = 20
     
-#     def _disp(cls):
-#         print(cls.__A)
-#         print(cls._B)
+    def _disp(cls):
+        print(cls.__A)
+        print(cls._B)
         
-# obj = A()
-# obj._disp()
+obj = A()
+obj._disp()
 
-# class B:
-#     def getter(cls):
-#         print(cls._A)
-#     def setter(cls, value):
-#         cls._A = value
+class B:
+    def getter(cls):
+        print(cls._A)
+    def setter(cls, value):
+        cls._A = value
         
         
-# class student :
-#     __marks = 0
+class student :
+    __marks = 0
     
-#     def marks(self , marks):
-#         self.__marks = marks
-#     def disp(self):
-#         print(self.__marks)
+    def marks(self , marks):
+        self.__marks = marks
+    def disp(self):
+        print(self.__marks)
         
-# obj = student()
-# obj.marks(85)
-# obj.disp()
+obj = student()
+obj.marks(85)
+obj.disp()
 
 
 class BankAcc :
