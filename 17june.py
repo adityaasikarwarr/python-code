@@ -19,3 +19,20 @@ print(findOut)
 
 check = [x ** 2 if x % 2 == 0 else x ** 3 for x in range(1,11)]
 print(check)
+
+
+class hey :
+    
+    def sum(self):
+        print("hello")
+        
+    def sum(self , a , b):
+        return a + b
+    
+    def sum(self , a , b , c):
+        return a + b + c
+    
+obj = hey()
+obj.sum()
+print(obj.sum(2 , 3))
+print(obj.sum(2 , 3 , 4))
