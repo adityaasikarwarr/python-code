@@ -47,3 +47,45 @@ member.issue_books()
 member.return_books()
 member.display_details()
     
+    
+# Create a Restaurant Ordering System. Store customer details using a constructor. Create a child class Order that stores order details. Use encapsulation for the bill amount and create methods to add items and generate the bill.
+
+class OrderingSystem :
+    
+    def __init__(self , Name , contact  ,  billNumber):
+        self.Name = Name
+        self.contact = contact
+        self.Bill_Number = billNumber
+        self.__total = 0
+        self.items = []
+        
+    def get_bill(self):
+        return self.__total
+        
+class Order(OrderingSystem):
+    def __init__(self, Name, contact, billNumber ,):
+        super().__init__(Name, contact, billNumber)
+        
+    def add_items(self):
+        item = input("Enter the food item you want order : ")
+        price = int(input('Enter the price of item : '))
+        self.price = price
+        
+        self.items.append(item)
+        self._OrderingSystem__total += price
+        print(f"your item {item} amount {price} has been added")
+    
+        
+    def show_details(self):
+       print("\nCUSTOMER DETAILS")
+       print("Customer Name :", self.Name)
+       print("Customer Contact :", self.contact)
+       print("Bill Number :", self.Bill_Number)
+       print("Items :", ", ".join(self.items))
+       print("Total Bill :", self.get_bill())
+        
+obj = Order("Rajesh", 999999999 , 991)
+obj.add_items()
+obj.add_items()
+
+obj.show_details()
