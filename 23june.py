@@ -34,3 +34,17 @@ years = [1000 , 2000 , 2004 , 2012 , 2016 , 2020 , 2024 , 2026]
 select = filter(lambda x: (x % 400 == 0) or (x % 4 == 0 and x % 100 != 0),years)
 convert = list(map(lambda x : str(x) , select))
 print(convert)
+
+# modules in python are files that contain python code and can be imported into other python files. they can contain functions, classes, and variables. they can also include runnable code. modules are a way to organize code into manageable sections. they can be built-in or user-defined.
+
+# math module is a built-in module in python that provides mathematical functions. it includes functions for trigonometry, logarithms, exponentials, and more. to use the math module, you need to import it using the import statement. once imported, you can access the functions and constants defined in the math module.
+
+# random module is a built-in module in python that provides functions for generating random numbers. it includes functions for generating random integers, floating-point numbers, and sequences. to use the random module, you need to import it using the import statement. once imported, you can access the functions defined in the random module.
+
+# randint() function is a function in the random module that generates a random integer between two specified values. it takes two arguments, the lower and upper bounds, and returns a random integer within that range. for example, random.randint(1, 10) will return a random integer between 1 and 10, inclusive.
+
+# randrange() function is a function in the random module that generates a random integer within a specified range. it takes three arguments: start, stop, and step. it returns a random integer from the range defined by these arguments. for example, random.randrange(1, 10, 2) will return a random odd integer between 1 and 9.
+
+# choice() function is a function in the random module that selects a random element from a non-empty sequence. it takes a single argument, which is the sequence (like a list or tuple), and returns a randomly selected element from that sequence. for example, random.choice(['apple', 'banana', 'cherry']) will return one of the fruits randomly.
+
+# shuffle() function is a function in the random module that randomly shuffles the elements of a list in place. it takes a single argument, which is the list to be shuffled, and modifies the list directly. for example, if you have a list my_list = [1, 2, 3, 4], calling random.shuffle(my_list) will rearrange the elements of my_list in a random order.

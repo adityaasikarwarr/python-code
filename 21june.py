@@ -9,12 +9,12 @@ class Member :
         
     def issue_books(self):
         self.book_name = input("ENTER BOOK YOU WANTED TO ISSUE :")
-        self.book_issued.append(self.book_issued)
+        self.book_issued.append(self.book_name)
         print(f"book issued to : {self.Name}")
         
     def return_books(self):
         
-        self.return_book = input("Enter book name to return : ")      
+        self.return_book = input("Enter book name to return : ")
                  
         if self.return_book in self.book_issued:
             self.book_issued.remove(self.return_book)
